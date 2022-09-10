@@ -1,6 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import ConfigContext from "../assets/ConfigContext";
+import Login from "./Login";
+import Cadastro from "./Cadastro";
+import Movimento from "./Movimento";
+import Carteira from "./Carteira";
 
 export default function App() {
     const [token, setToken] = useState("");
